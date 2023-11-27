@@ -10,7 +10,7 @@
 body {
     padding: 10px;
     height: 100vh;
-    background: url(img/future-background.gif) no-repeat center bottom fixed;
+    background: url(../img/future-background.gif) no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
