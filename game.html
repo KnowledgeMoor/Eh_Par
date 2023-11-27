@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gameStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <p>Nivel: </p>
+                <form action="" id="dificultyForm">
+                    <select name="dificulty" id="dificulty">
+                        <option value="Selecione">Selecione</option>
+                        <option value="Fácil">Facil</option>
+                        <option value="Médio">Medio</option>
+                        <option value="Difícil">Dificil</option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <p>Tempo: <span id="tempo"></span></p>
+            </div>
+            <div>
+                <img src="img/playBtn.png" alt="" id="iniciarBtn">
+                <img src="img/pauseBtn.png" alt="" id="pausarBtn">
+                <img src="img/pararBtn.png" alt="" id="pararBtn">
+                <img src="img/voltarBtn.png" alt="" id="voltarBtn">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p id="randomNum"></p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>ACERTOS: </p>
+            <p><span id="acertos"></span> (<span id="acertosPerCent"></span>)</p>
+        </div>
+        <div>
+            <p>ERROS:</p><span id="erros"></span>
+        </div>
+        <div>
+            <p>TOTAL:</p><span id="pares"></span>
+        </div>
+    </footer>
+
+
+    <script src="js/gameScript.js"></script>
+    <script src="js/jAlertWifi.js"></script>
+</body>
+
+</html>
