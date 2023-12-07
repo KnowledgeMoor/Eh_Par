@@ -16,7 +16,7 @@ body {
     margin:0;
     display: flex;
     flex-direction: column;
-    background: url(/img/arcade\ station.jpg) no-repeat center 30% fixed;
+    background: url(../img/arcade\ station.jpg) no-repeat center 30% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
