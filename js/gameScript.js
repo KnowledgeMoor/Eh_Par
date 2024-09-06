@@ -151,7 +151,7 @@ window.addEventListener("load", function () {
         alreadyClicked = false;
         clicked = false;
         randomNumber.addEventListener("click", function change() {
-            if (clicked == false && !enablePlay) {
+            if (!clicked && !enablePlay) {
                 if (randomNumber.innerHTML % 2 == 0) {
                     randomNumber.style.color = "green";
                     acertos.innerHTML = (parseInt(acertos.innerHTML) + 1);
