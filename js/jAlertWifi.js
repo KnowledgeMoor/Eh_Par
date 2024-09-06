@@ -6,7 +6,7 @@
 // Objetivo: Apresentar um alert() personalizado, a partir de um painel utilizando jQuery
 // ----------------------------------------------------------------------------------------
 
-var script = document.createElement('script');
+const script = document.createElement('script');
 script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js';
 script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
