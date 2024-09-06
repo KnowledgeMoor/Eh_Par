@@ -38,7 +38,7 @@ function alertWifi($txt, $hasTimer, $countTimer, $srcImg, $fontSize, $paginaAbri
 
     // Adiciona uma imagem ao painel de informações
     if ($srcImg != "") {
-        $imgPanelInfo = $("<img>").attr("src",$srcImg);
+        let $imgPanelInfo = $("<img>").attr("src",$srcImg);
         $($contentPanel).append($imgPanelInfo);
     }
     // Adiciona o texto ao painel de informações ou o contador
