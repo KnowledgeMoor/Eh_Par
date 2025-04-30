@@ -17,12 +17,15 @@ O "Par ou Ímpar?" é um jogo de reflexos onde números aleatórios de 1 a 100 a
 
 ## 🚀 Como Usar
 
+- Acesse o jogo no link : https://knowledgemoor.github.io/Eh_Par/
+
+ou
+
 1. Clone este repositório:
 ```bash
 git clone https://github.com/seuusuario/par-ou-impar.git
 cd par-ou-impar
 ```
-
 2. Abra o arquivo `index.html` em seu navegador web
 
 3. Cadastre-se ou faça login usando o usuário e senha padrão:
