@@ -23,8 +23,8 @@ ou
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seuusuario/par-ou-impar.git
-cd par-ou-impar
+git clone https://github.com/KnowledgeMoor/Eh_Par.git
+cd Eh_Par
 ```
 2. Abra o arquivo `index.html` em seu navegador web
 
